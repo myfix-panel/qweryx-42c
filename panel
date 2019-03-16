@@ -1,1 +1,15 @@
-
+/var/sentora/logs/domains/*/*.log 
+/var/sentora/logs/*/*.log
+/var/sentora/logs/*.log 
+{
+    su apache apache
+    create 640 apache apache
+    daily
+    rotate 7
+    missingok
+    dateext
+    notifempty
+    compress
+    sharedscripts
+    copytruncate
+}
