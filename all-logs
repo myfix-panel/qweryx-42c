@@ -13,3 +13,15 @@
     sharedscripts
     copytruncate
 }
+/var/log/vsftpd.log 
+/var/log/xferlog.log
+{
+    daily
+    rotate 7
+    missingok
+    dateext
+    notifempty
+    compress
+    sharedscripts
+    copytruncate
+}
