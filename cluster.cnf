@@ -13,7 +13,7 @@ log_error=/var/log/mysql/safe.log
 slow_query_log_file=/var/log/mysql/slow.log
 
 #Cluster
-wsrep_on=ON
+wsrep_on=OFF
 wsrep_slave_threads=4
 wsrep_provider=/usr/lib64/galera/libgalera_smm.so
 wsrep_cluster_address="gcomm://157.230.18.100,157.230.122.20,157.230.122.21"
