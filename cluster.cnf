@@ -17,7 +17,6 @@ wsrep_on=OFF
 wsrep_slave_threads=4
 wsrep_provider=/usr/lib64/galera/libgalera_smm.so
 wsrep_cluster_address="gcomm://157.230.18.100,157.230.122.20,157.230.122.21"
-binlog_format=row
 default_storage_engine=InnoDB
 innodb_autoinc_lock_mode=2
 wsrep_cluster_name="onet"
