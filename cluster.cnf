@@ -1,5 +1,5 @@
 [mysqld]
-binlog_format=ROW
+binlog_format = ROW
 user=mysql
 wait_timeout=300
 query_cache_type=OFF
